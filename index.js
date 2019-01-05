@@ -14,3 +14,17 @@ function destructivelyRemoveFirstDriver() {
 function destructivelyRemoveLastDriver() {
   drivers.pop();
 }
+
+
+function appendDriver(name) {
+  drivers.push(name);
+}
+function destructivelyPrependDriver(name) {
+  drivers.unshift(name);
+}
+function destructivelyRemoveFirstDriver() {
+  drivers.shift();
+}
+function destructivelyRemoveLastDriver() {
+  drivers.pop();
+}
