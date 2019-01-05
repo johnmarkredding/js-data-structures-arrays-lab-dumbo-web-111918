@@ -22,9 +22,9 @@ function appendDriver(name) {
 function prependDriver(name) {
   return [name, ...drivers];
 }
-function destructivelyRemoveFirstDriver() {
-  drivers.shift();
+function removeFirstDriver() {
+  return drivers[];
 }
-function destructivelyRemoveLastDriver() {
+function removeLastDriver() {
   drivers.pop();
 }
